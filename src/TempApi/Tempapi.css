@@ -1,0 +1,86 @@
+.square-boxP{
+    
+    position: static;
+    background: rgb(3,86,191);
+}
+h1{
+    
+    text-align: center;
+    font-size: 3rem;
+    color: #00008B;
+    margin-top: 2rem;
+    animation: flip 2s ease-in infinite;
+
+}
+
+@keyframes flip {
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotateX(360deg);
+    }
+    
+}
+
+.square-boxC{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background-color: var(--blue);
+    height: 40rem;
+    width: 40rem;
+    padding: 20px;
+    
+    
+
+}
+
+
+.Cloud{
+    margin-left: 40%;
+    
+}
+
+input{
+    
+    width: 20rem;
+    height: 2rem;
+    margin-left: 25%;
+   
+    font-size: 20px;
+    outline: none;
+    border: 4px solid #1E3F66;
+    border-radius: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: #00008B;
+}
+
+.main-item{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.main-item>span{
+    font-size: 40px;
+    color: #00008B;
+}
+
+.max-min>span{
+    font-size: 20px;
+    color: #00008B;
+}
+
